@@ -8,7 +8,8 @@ if (!(isset($_SESSION['pet_unique_id']))) {
 <?php require_once 'inc/head-content.php';  ?>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <body>
-<?php require_once 'inc/header.php';  ?>
+<!-- <//?php require_once 'inc/header_11.php';  ?> -->
+<?php require_once 'inc/header_11.php';  ?>
     <?php
         $parent_id = $_SESSION['pet_unique_id'];
         require 'dbcon.php';
